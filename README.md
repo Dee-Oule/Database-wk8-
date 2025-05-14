@@ -1,30 +1,25 @@
 # Database-wk8-Assignment : LIBRARY MANAGEMENT
 
-Question 1: Build a Complete Database Management System
+# 📌 Library Management System
 
+## 🔍 Project Description
+This project is a relational **database management system** designed using **MySQL**. It tracks books, borrowers, and loan transactions efficiently.
 
-Objective:
-Design and implement a full-featured database using only MySQL.
+## 🚀 How to Run/Setup
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/your-repo/library-db.git
+   cd library-db
 
+## 🚀 ERD Diagram
 
-What to do:
+A Library Management System is designed to organize and manage books, members, staff, and borrowing transactions. The database ensures efficient tracking of:
 
-Choose a real-world use case (e.g., Library Management, Student Records, Clinic Booking System, Inventory Tracking, etc.)
+Books and their details (title, author, ISBN, genre).
 
-Create a well-structured relational database using SQL.
+Members who borrow books.
 
+Staff responsible for managing the library.
 
-Use SQL to create:
-
-Tables with proper constraints (PK, FK, NOT NULL, UNIQUE)
-
-Relationships (1-1, 1-M, M-M where needed)
-
-
-
-Deliverables:
-
-A single .sql file containing your:
-
-CREATE TABLE statements
+Borrowing Records that link members and books with borrowing dates and return deadlines.
 
